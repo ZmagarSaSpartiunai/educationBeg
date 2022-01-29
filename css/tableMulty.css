@@ -18,12 +18,35 @@ table {
     text-align: center;
   }
   
-  tr:nth-child(2n+1) td {
+  td:nth-child(odd)  {
     background-color: rgb(182, 182, 182);
   }
   
-  tr:nth-child(odd) td {
-    background-color: rgb(255, 194, 80);
+  .color1{
+      color: blue;
   }
-  
+  .color2{
+      color: blueviolet;
+  }
+  .color3{
+    color: brown;
+  }
+  .color4{
+      color: chartreuse;
+  }
+  .color5{
+      color: crimson;
+  }
+  .color6{
+      color: darkgreen;
+  }
+  .color7{
+      color: darkorange;
+  }
+  .color8{
+    color: deeppink;
+  }
+  .color9{
+      color: gold;
+  }
   
