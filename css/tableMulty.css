@@ -1,0 +1,29 @@
+
+table {
+    width: 250px;
+    margin:auto;
+    border-collapse: collapse;
+    border: 2px solid ;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+  
+  td, tr {
+    border: 1px solid ;
+    padding: 5px 5px;
+  }
+    
+  td {
+    
+    text-align: center;
+  }
+  
+  tr:nth-child(2n+1) td {
+    background-color: rgb(182, 182, 182);
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: rgb(255, 194, 80);
+  }
+  
+  
